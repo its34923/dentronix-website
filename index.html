@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Dentronix — Premium dental instruments for modern dentistry. Precision-crafted tools trusted by professionals worldwide.">
+  <title>Dentronix | Premium Dental Instruments</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-icon">◆</span>
+        Dentronix Industries
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta">Get Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="badge">Trusted by 5,000+ Dental Professionals</span>
+          <h1>Precision Instruments for <span class="highlight">Modern Dentistry</span></h1>
+          <p>Dentronix delivers surgical-grade dental instruments engineered for accuracy, durability, and patient
+            comfort. Elevate your practice with tools built to last.</p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn btn-primary">Explore Products</a>
+            <a href="#about" class="btn btn-outline">Learn More</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>25+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="stat">
+              <strong>150+</strong>
+              <span>Instrument Types</span>
+            </div>
+            <div class="stat">
+              <strong>40+</strong>
+              <span>Countries Served</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="instrument-showcase">
+            <div class="showcase-card main-card">
+              <div class="card-icon">🦷</div>
+              <h3>Premium Quality</h3>
+              <p>Medical-grade stainless steel</p>
+            </div>
+            <div class="showcase-card float-card-1">
+              <span>ISO Certified</span>
+            </div>
+            <div class="showcase-card float-card-2">
+              <span>Lifetime Warranty</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section" id="products">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Catalog</span>
+          <h2>Professional Dental Instruments</h2>
+          <p>Comprehensive range of precision tools for every dental procedure.</p>
+        </div>
+        <div class="product-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="diagnostic">Diagnostic</button>
+          <button class="filter-btn" data-filter="surgical">Surgical</button>
+          <button class="filter-btn" data-filter="restorative">Restorative</button>
+        </div>
+        <div class="products-grid" id="productsGrid">
+          <article class="product-card" data-category="diagnostic">
+            <div class="product-image">🔍</div>
+            <div class="product-info">
+              <span class="product-category">Diagnostic</span>
+              <h3>Explorer & Probe Set</h3>
+              <p>Double-ended explorers for caries detection and periodontal assessment.</p>
+              <div class="product-footer">
+                <span class="price">From $24.99</span>
+                <button class="btn btn-sm">Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="diagnostic">
+            <div class="product-image">🪞</div>
+            <div class="product-info">
+              <span class="product-category">Diagnostic</span>
+              <h3>Mouth Mirror Kit</h3>
+              <p>Front-surface mirrors with ergonomic handles for clear visualization.</p>
+              <div class="product-footer">
+                <span class="price">From $18.99</span>
+                <button class="btn btn-sm">Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="surgical">
+            <div class="product-image">✂️</div>
+            <div class="product-info">
+              <span class="product-category">Surgical</span>
+              <h3>Extraction Forceps</h3>
+              <p>Precision-engineered forceps for safe and efficient tooth extraction.</p>
+              <div class="product-footer">
+                <span class="price">From $89.99</span>
+                <button class="btn btn-sm">Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="surgical">
+            <div class="product-image">🔧</div>
+            <div class="product-info">
+              <span class="product-category">Surgical</span>
+              <h3>Elevator Set</h3>
+              <p>Luxating and straight elevators for controlled tooth luxation.</p>
+              <div class="product-footer">
+                <span class="price">From $64.99</span>
+                <button class="btn btn-sm">Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="restorative">
+            <div class="product-image">🖌️</div>
+            <div class="product-info">
+              <span class="product-category">Restorative</span>
+              <h3>Composite Instruments</h3>
+              <p>Non-stick coating for seamless composite placement and sculpting.</p>
+              <div class="product-footer">
+                <span class="price">From $32.99</span>
+                <button class="btn btn-sm">Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="restorative">
+            <div class="product-image">📐</div>
+            <div class="product-info">
+              <span class="product-category">Restorative</span>
+              <h3>Crown & Bridge Kit</h3>
+              <p>Complete kit for crown preparation and temporary restoration.</p>
+              <div class="product-footer">
+                <span class="price">From $149.99</span>
+                <button class="btn btn-sm">Details</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <div class="about-card">
+            <div class="about-stat-large">25+</div>
+            <p>Years of Excellence in Dental Instrument Manufacturing</p>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-tag">About Dentronix</span>
+          <h2>Crafting Excellence Since 1999</h2>
+          <p>Dentronix was founded with a single mission: to provide dental professionals with instruments that combine
+            German engineering precision with accessible pricing.</p>
+          <p>Every instrument undergoes rigorous quality control — from raw material selection to final polish —
+            ensuring consistent performance in clinical settings worldwide.</p>
+          <ul class="about-list">
+            <li>✓ ISO 13485 certified manufacturing</li>
+            <li>✓ CE marked medical devices</li>
+            <li>✓ Autoclavable up to 134°C</li>
+            <li>✓ Ergonomic designs reducing hand fatigue</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Why Choose Us</span>
+          <h2>The Dentronix Advantage</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Superior Durability</h3>
+            <p>Medical-grade 440C stainless steel with hardened tips that maintain sharpness through thousands of
+              procedures.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3>Precision Engineering</h3>
+            <p>CNC-machined to tolerances within 0.01mm for consistent, reliable performance every time.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>Full Warranty</h3>
+            <p>Comprehensive lifetime warranty against manufacturing defects. We stand behind every instrument we make.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🚚</div>
+            <h3>Global Shipping</h3>
+            <p>Fast, tracked delivery to 40+ countries. Bulk orders receive dedicated account management.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Testimonials</span>
+          <h2>Trusted by Professionals</h2>
+        </div>
+        <div class="testimonials-slider" id="testimonialSlider">
+          <div class="testimonial active">
+            <p>"Dentronix instruments have transformed our surgical workflow. The quality rivals premium European brands
+              at a fraction of the cost."</p>
+            <div class="testimonial-author">
+              <strong>Dr. Sarah Mitchell</strong>
+              <span>Oral Surgeon, London</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>"We've been using Dentronix for over 8 years. Consistent quality, excellent customer service, and
+              instruments that last."</p>
+            <div class="testimonial-author">
+              <strong>Dr. Ahmed Hassan</strong>
+              <span>General Dentist, Dubai</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>"The ergonomic design significantly reduces hand fatigue during long procedures. Highly recommended for
+              any busy practice."</p>
+            <div class="testimonial-author">
+              <strong>Dr. Elena Rodriguez</strong>
+              <span>Periodontist, Madrid</span>
+            </div>
+          </div>
+        </div>
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Contact Us</span>
+          <h2>Get in Touch</h2>
+          <p>Request a catalog, get a bulk quote, or ask about custom instrument sets.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong>Address</strong>
+                <p>Ugoki, Sialkot, Punjab, Pakistan</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <strong>Phone / WhatsApp</strong>
+                <p>+92 324 6559017</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <div>
+                <strong>Email</strong>
+                <p>dentronixindustries@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Dr. John Smith">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="you@clinic.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a topic</option>
+              <option value="quote">Request Quote</option>
+              <option value="catalog">Product Catalog</option>
+              <option value="support">Technical Support</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required
+              placeholder="Tell us about your needs..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-success" id="formSuccess">Thank you! We'll get back to you within 24 hours.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-icon">◆</span>
+          Dentronix Industries
+        </a>
+        <p>Premium dental instruments for professionals who demand excellence.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#products">Diagnostic Tools</a></li>
+          <li><a href="#products">Surgical Instruments</a></li>
+          <li><a href="#products">Restorative Kits</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#features">Quality Standards</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Warranty Info</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Dentronix Industries. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
